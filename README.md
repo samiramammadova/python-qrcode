@@ -4,6 +4,7 @@
 A standard install uses pypng to generate PNG files and can also render QR codes directly to the console. A standard install is just:
 
 -pip install pil-
+
 For more image functionality, install qrcode with the pil dependency so that pillow is installed and can be used for generating images:
 
 -pip install "qrcode[pil]"-
@@ -17,4 +18,5 @@ A Quick Response code is a two-dimensional pictographic code used for its fast r
 From the command line, use the installed qr script:
 
 -qr "Some text" > test.png-
+
 Or in Python, use the make shortcut function:
